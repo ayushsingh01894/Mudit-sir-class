@@ -7,7 +7,7 @@ function SignUp() {
   let [error, setError] = useState({});
 
   let handleChange = (e) => {
-    let { name, value } = e.target;
+    let { name, value } = e.target; //destucturing use here for name into name and value into value
 
     setData({ ...data, [name]: value });
   };
