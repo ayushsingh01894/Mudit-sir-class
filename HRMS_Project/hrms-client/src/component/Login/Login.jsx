@@ -1,8 +1,12 @@
 import "./Login.css";
-import { Link } from "react-router-dom";
+import { Link , useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 function Login() {
+
+  let nevigate = useNavigate();
+
+
   let [data, setData] = useState({});
   let [error, setError] = useState({});
 
@@ -21,6 +25,7 @@ function Login() {
       inputError.password = "Password is required";
     } else {
       console.log(data);
+      nevigate("/admin/panel")
     }
 
     setError(inputError);
@@ -88,3 +93,6 @@ function Login() {
 }
 
 export default Login;
+
+
+// use nevigate is a hook of react-router-dom which help as to nevigate one page to another page 
