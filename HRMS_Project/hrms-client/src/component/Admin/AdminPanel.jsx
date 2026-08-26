@@ -1,6 +1,6 @@
 import "./AdminPanel.css";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link , outlet} from "react-router-dom";
 
 export default function AdminPanel() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
@@ -72,6 +72,7 @@ export default function AdminPanel() {
             </div>
           </div>
         </header>
+      </outlet>
       </main>
     </div>
   );
