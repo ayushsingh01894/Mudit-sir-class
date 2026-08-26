@@ -20,3 +20,4 @@ Add components/ admin/employee.jsx
 and  
 and use outlet in adminpanel and make parents route to adminpanel and child routes dashboard and employees 
 
+use import outlet
