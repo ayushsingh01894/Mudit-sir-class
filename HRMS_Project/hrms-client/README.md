@@ -23,3 +23,4 @@ and use outlet in adminpanel and make parents route to adminpanel and child rout
 use import outlet
 
 in adminpanel.jsx change Anchor tag to link using div 
+use nevigate to navigate onclick method use 
