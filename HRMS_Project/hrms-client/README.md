@@ -21,3 +21,5 @@ and
 and use outlet in adminpanel and make parents route to adminpanel and child routes dashboard and employees 
 
 use import outlet
+
+in adminpanel.jsx change Anchor tag to link using div 
