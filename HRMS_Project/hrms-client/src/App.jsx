@@ -3,6 +3,7 @@ import Login from "./component/Login/Login";
 import SignUp from "./component/SignUp/signup";
 import AdminPanel from "./component/Admin/AdminPanel";
 import Dashbord from "./component/Admin/Dashbord";
+import employee........
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
