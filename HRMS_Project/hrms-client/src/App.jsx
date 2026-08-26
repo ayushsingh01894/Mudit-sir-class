@@ -15,6 +15,7 @@ function App() {
           <Route path="/" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/admin/panel" element={<AdminPanel />} />
+          #make admin as a parent function and inside it store dashboard, employees, attendance 
           <Route path="/admin/dashbord" element={<Dashbord />} />
         </Routes>
       </BrowserRouter>
